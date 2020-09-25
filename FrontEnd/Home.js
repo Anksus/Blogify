@@ -14,7 +14,7 @@ class Home extends React.Component {
           src="https://img.icons8.com/cotton/2x/laptop-coding.png"
           alt="home-img"
         />
-        <h1>Blogify</h1>
+        <h1 className="hom">Blogify</h1>
         <h3>lorem ipsum </h3>
 
         <Link to={"/cp-guide"}>
