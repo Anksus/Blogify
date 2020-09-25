@@ -17,3 +17,12 @@ $ npm-install
 ```
 
 ### For better code quality we are suing ESLint and for formatting Prettier.
+
+## To run project, type the following command in the terminal.
+```
+npm run dev
+```
+
+
+# For front-end contributers 
+Just write your custom css in styles.js
