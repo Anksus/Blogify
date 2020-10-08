@@ -10,19 +10,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <img
-          src="https://img.icons8.com/cotton/2x/laptop-coding.png"
-          alt="home-img"
-        />
-        <h1 className="hom">Blogify</h1>
-        <h3>lorem ipsum </h3>
-
-        <Link to={"/cp-guide"}>
-          <button>CP stater guide</button>
-        </Link>
-        <Link to="/about">
-          <button>About</button>
-        </Link>
+        <h1>do your work here</h1>
       </div>
     );
   }
