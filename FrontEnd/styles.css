@@ -4,12 +4,12 @@ body {
 /*CSS for sidebars*/
 .sidebar {
   height: 100%;
-  width: 160px;
+  width: 20%;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: green;
+  background-color: whitesmoke;
   overflow-x: hidden;
   padding-top: 16px;
 }
@@ -26,9 +26,9 @@ body {
   color: yellow;
   text-decoration: underline;
 }
-/*style on main*/
-.main {
-  margin-left: 160px;
+/*style on left-side-main*/
+.right-side-main {
+  margin-left: 20%;
   padding: 0px 10px;
   text-align: left;
 }
