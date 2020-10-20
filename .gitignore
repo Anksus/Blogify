@@ -5,3 +5,6 @@ dist/
 .DS_Store
 coverage/
 .vscode/
+backend/node_modules/
+backend/.env
+.git/
