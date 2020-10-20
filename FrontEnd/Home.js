@@ -56,8 +56,6 @@ class Home extends React.Component {
             </ul>
           </div>
           <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
         </div>
 
         {/* main */}
