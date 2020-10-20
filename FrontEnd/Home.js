@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "@reach/router";
-
+import Sidebar from './Sidebar';
 class Home extends React.Component {
   render() {
     return (
