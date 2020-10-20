@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "@reach/router";
-
+import Sidebar from './Sidebar';
 class Home extends React.Component {
   render() {
     return (
@@ -55,8 +55,6 @@ class Home extends React.Component {
               <a href="#Home">Kabab</a>
             </ul>
           </div>
-          <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
           <a href="#Home">Overview</a>
         </div>
 
