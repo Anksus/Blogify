@@ -5,59 +5,178 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        {/* sidebar */}
+        {/* Sidebar */}
         <div className="sidebar">
-          <a href="#Home">Overview</a>
-          <a href="#services">Objects</a>
-          <a href="#clients">properties</a>
-          <a href="#contact">Hooks</a>
-          <a href="#ndqwnd">Events</a>
-          <a href="#Home">Dishes</a>
+          <h1> Articles </h1>
+          <hr/>
+          <h4> Algebra </h4>
           <div>
-            <ul>
-              <a href="#Home">Chicken</a>
-              <a href="#Home">Paneer</a>
-              <a href="#Home">Dosa</a>
-              <a href="#Home">Kabab</a>
-            </ul>
+              <div className="Algebra-bar">
+                <li><a href="#Fundamen">Fundamentals</a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="#xyz"> Binary Exponentiation </a></li>
+                      <li><a href="#xyz"> Euclidean algorithm for computing the GCD  </a></li>
+                      <li><a href="#xyz"> Extended Euclidean Algorithm </a></li>
+                      <li><a href="#xyz"> Linear Diophantine Equations </a></li>
+                      <li><a href="#xyz"> Fibonacci Numbers </a> </li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#Home">Prime Numbers</a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Sieve of Eratosthenes(SOE) </a> </li>
+                      <li><a href="XYZ"> SOE with Linear Time complexity </a> </li>
+                      <li><a href="XYZ"> Primality Test </a> </li>
+                      <li><a href="XYZ"> Integer Factorization </a> </li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#Home">Number-theoratic functions</a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Euler's totient function </a></li>
+                      <li><a href="XYZ"> Number of Divisors / Sum of Divisors </a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#Home"> Modular arithmetic </a>
+                  <div className="submenu-01">
+                    <ul>
+                    <li><a href="XYZ"> Modular Inverse </a></li>
+                    <li><a href="XYZ"> Linear Congruence Euation </a></li>
+                    <li><a href="XYZ"> Chinese Remainder Theorem </a></li>
+                    <li><a href="XYZ"> Factorial modulo p</a></li>
+                    <li><a href="XYZ"> Discrete Log</a></li>
+                    <li><a href="XYZ"> Primitive Root</a></li>
+                    <li><a href="XYZ"> Discrete Root</a></li>
+                    <li><a href="XYZ"> Montogomery Multiplication</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#number systems"> Number systems</a>
+                  <div className="submenu-01">
+                    <ul>
+                    <li><a href="XYZ"> Balanced Ternary</a></li>
+                    <li><a href="XYZ"> Gray Code</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#Miscellaneous"> Miscellaneous </a>
+                <div className="submenu-01">
+                  <ul>
+                    <li><a href="XYZ"> Enumerating submasks of a bitmask </a></li>
+                    <li><a href="XYZ"> Arbitrary-Precision Arithmetic</a></li>
+                    <li><a href="XYZ"> Fast Fourier transform </a></li>
+                    <li><a href="XYZ"> Operations on polynoials and series </a></li>
+                  </ul>
+                </div>
+                </li>
+              </div>
           </div>
-          <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
-          <a href="#services">Objects</a>
-          <a href="#clients">properties</a>
-          <a href="#contact">Hooks</a>
-          <a href="#ndqwnd">Events</a>
-          <a href="#Home">Dishes</a>
-          <div>
-            <ul>
-              <a href="#Home">Chicken</a>
-              <a href="#Home">Paneer</a>
-              <a href="#Home">Dosa</a>
-              <a href="#Home">Kabab</a>
-            </ul>
-          </div>
-          <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
-          <a href="#services">Objects</a>
-          <a href="#clients">properties</a>
-          <a href="#contact">Hooks</a>
-          <a href="#ndqwnd">Events</a>
-          <a href="#Home">Dishes</a>
-          <div>
-            <ul>
-              <a href="#Home">Chicken</a>
-              <a href="#Home">Paneer</a>
-              <a href="#Home">Dosa</a>
-              <a href="#Home">Kabab</a>
-            </ul>
-          </div>
-          <a href="#Home">Overview</a>
-        </div>
 
+          <h4>Data Structures </h4>
+          <div>
+            <div className="Data-bar">
+              <li><a href="#Home"> Fundamentals </a>
+                <div className="submenu-01">
+                  <ul>
+                    <li><a href="XYZ"> Minimum Stack / Minimum Queue</a></li>
+                    <li><a href="XYZ"> Sparse Table</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#Home">Trees</a>
+                <div className="submenu-01">
+                  <ul>
+                    <li><a href="XYZ"> Disjoint Set Union</a></li>
+                    <li><a href="XYZ"> Fenwick Tree</a></li>
+                    <li><a href="XYZ"> Sqrt Decomposition</a></li>
+                    <li><a href="XYZ"> Segment Tree</a></li>
+                    <li><a href="XYZ"> Treap</a></li>
+                    <li><a href="XYZ"> Sqrt Tree</a></li>
+                    <li><a href="XYZ"> Randomized Heap</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#Home"> Advanced</a>
+                <div className="submenu-01">
+                  <ul>
+                    <li><a href="XYZ"> Deleting from a Data Structure in O(T(n)log(n)) </a></li>
+                  </ul>
+                </div>
+              </li>
+            </div>
+          </div>
+
+          <h4> Dynamic Programming </h4>
+          <div>
+              <div className="DP-bar">
+                <li><a href="#Fundamen"> DP optimizations</a></li>
+                <li><a href="#Home"> Tasks </a></li>
+              </div>
+          </div>
+
+          <h4> String </h4>
+          <div>
+              <div className="String-bar">
+                <li><a href="#Fundamen">Fundamentals</a></li>
+                <li><a href="#Home"> Advanced </a></li>
+                <li><a href="#Home">  Tasks </a></li>
+              </div>
+          </div>
+
+          <h4> Linear Algebra </h4>
+          <div>
+              <div className=" Linear-Alg-bar">
+                <li><a href="qwdqdm"> Matrices </a></li>
+              </div>
+          </div>
+
+          <h4> Algebra </h4>
+          <div>
+              <div className="combi-bar">
+                <li><a href="#Fundamen"> Fundamentals </a></li>
+                <li><a href="#Home"> Techniques </a></li>
+                <li><a href="#Home">  Tasks </a> </li>
+              </div>
+          </div>
+
+          <h4> Numerical Methods </h4>
+          <div>
+              <div className="Numerical-bar ">
+                <li><a href="#Fundamen"> Search </a></li>
+                <li><a href="#Home"> Integration </a></li>
+              </div>
+          </div>
+
+          <h4> Graph </h4>
+          <div>
+              <div className="graph-bar">
+                <li><a href="#Fundamen"> Graph Traversal </a></li>
+                <li><a href="#Home"> Conected components, Bridges, Articulations point </a></li>
+                <li><a href="#Home"> Single-source shortest paths </a></li>
+                <li><a href="#Home">  All-pairs shortest paths </a></li>
+                <li><a href="#number systems"> Spanning Trees</a></li>
+                <li><a href="#Miscellaneous">  Cycles </a></li>
+                <li><a href="#lowest"> Lowest coon ancestor  </a></li>
+                <li> <a href="#flows"> Flows and related problems </a></li>
+                <li> <a href="matching"> Matchings and related problems </a></li>
+                <li><a href="#miscell"> Miscellaneous </a></li>
+              </div>
+          </div>
+
+          <h4> Miscellaneous </h4>
+          <div>
+              <div className="misscell-bar">
+                <li><a href="#Fundamen"> Sequences </a></li>
+                <li><a href="#Home"> Game theory </a></li>
+                <li><a href="#Home">  Schedules </a></li>
+                <li><a href="#Home">  Miscellaneous  </a></li>
+              </div>
+          </div>
+        </div>
         {/* main */}
         <div className="right-side-main">
           <h2>Sidebar with Icons</h2>

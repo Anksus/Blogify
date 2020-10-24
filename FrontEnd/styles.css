@@ -1,6 +1,17 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+h1{
+  font-variant: small-caps;
+}
+
+/*style on left-side-main*/
+.right-side-main {
+  margin-left: 20%;
+  padding: 0px 10px;
+  text-align: left;
+}
+
 /*CSS for sidebars*/
 .sidebar {
   height: 100%;
@@ -14,21 +25,47 @@ body {
   padding-top: 16px;
 }
 /* Style for sidebar links*/
-.sidebar a {
-  padding: 5px 8px 5px 15px;
+.sidebar li a {
+  padding: 5px;
   text-decoration: none;
   font-size: 16px;
   color: black;
-  display: flex;
 }
 /*Style links on mouse over*/
-.sidebar a:hover {
-  color: yellow;
-  text-decoration: underline;
+.sidebar li a {
+  text-decoration: none;
+  color: green;
 }
-/*style on left-side-main*/
-.right-side-main {
-  margin-left: 20%;
-  padding: 0px 10px;
-  text-align: left;
+.sidebar li a:hover{
+  text-decoration: none;
+  color: blue;
+}
+
+.sidebar, .Algebra-bar li{
+  margin-top: 5px;
+}
+
+.submenu-01{
+  display: none;
+}
+
+/*CSS for submenu*/
+.sidebar li:hover .submenu-01
+{
+  display: block;
+  position: relative;
+  color: rgb(0,100,0);
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+.sidebar li:hover .submenu-01 ul{
+  display: block;
+  block-size: auto;
+  margin: 2px;
+}
+.sidebar li:hover .submenu-01 ul li{
+  width: 100px;
+  padding: 5px;
+  border-bottom: 1px dotted black;
 }
