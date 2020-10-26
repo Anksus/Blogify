@@ -103,7 +103,7 @@ class Home extends React.Component {
               <li><a href="#Home"> Advanced</a>
                 <div className="submenu-01">
                   <ul>
-                    <li><a href="XYZ"> Deleting from a Data Structure in O(T(n)log(n)) </a></li>
+                    <li><a href="XYZ"> Deleting from a Data Structure in (T(n)log(n)) </a></li>
                   </ul>
                 </div>
               </li>
@@ -113,57 +113,259 @@ class Home extends React.Component {
           <h4> Dynamic Programming </h4>
           <div>
               <div className="DP-bar">
-                <li><a href="#Fundamen"> DP optimizations</a></li>
-                <li><a href="#Home"> Tasks </a></li>
+                <li><a href="#Fundamen"> DP optimizations</a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Divide and Conquer DP </a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#Home"> Tasks </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> DP on Broken profile. Problem "parquet".</a></li>
+                      <li><a href="XYZ"> Finding the largest Zero submatrix</a></li>
+                    </ul>
+                  </div>
+                </li>
               </div>
           </div>
 
           <h4> String </h4>
           <div>
               <div className="String-bar">
-                <li><a href="#Fundamen">Fundamentals</a></li>
-                <li><a href="#Home"> Advanced </a></li>
-                <li><a href="#Home">  Tasks </a></li>
+                <li><a href="#Fundamen">Fundamentals</a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> String Hashing</a></li>
+                      <li><a href="XYZ"> Rabin-Karp for String Matching</a></li>
+                      <li><a href="XYZ"> Prefix function-Knuth-Morris-Pratt (KMP)</a></li>
+                      <li><a href="XYZ"> Z-Function </a></li>
+                      <li><a href="XYZ"> Suffix Array </a></li>
+                      <li><a href="XYZ"> Aho-Corasick algorithm</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#Home"> Advanced </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Suffix Tree</a></li>
+                      <li><a href="XYZ"> Suffix Automaton</a></li>
+                      <li><a href="XYZ"> Lyndon Factorization</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#Home">  Tasks </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Expression parsing </a></li>
+                      <li><a href="XYZ"> Manacher's Algorithm- Finding all subpalindrome in O(n)</a></li>
+                      <li><a href="XYZ"> Finding repetitions</a></li>
+                    </ul>
+                  </div>
+                </li>
               </div>
           </div>
 
           <h4> Linear Algebra </h4>
           <div>
               <div className=" Linear-Alg-bar">
-                <li><a href="qwdqdm"> Matrices </a></li>
+                <li><a href="qwdqdm"> Matrices </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Gauss & System of Linear Equations </a></li>
+                      <li><a href="XYZ"> Gauss & Determinant </a></li>
+                      <li><a href="XYZ"> Kraut & Determinant </a></li>
+                      <li><a href="XYZ"> Rank of Matrix</a></li>
+                    </ul>
+                  </div>
+                </li>
               </div>
           </div>
 
           <h4> Algebra </h4>
           <div>
               <div className="combi-bar">
-                <li><a href="#Fundamen"> Fundamentals </a></li>
-                <li><a href="#Home"> Techniques </a></li>
-                <li><a href="#Home">  Tasks </a> </li>
+                <li><a href="#Fundamen"> Fundamentals </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Finding power of Factorial Divisor </a></li>
+                      <li><a href="XYZ"> Binomial Coefficients</a></li>
+                      <li><a href="XYZ"> Catalan Numbers</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#Home"> Techniques </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> The Inclusion-Exclusion Principle</a></li>
+                      <li><a href="XYZ">Burnside's lemma</a></li>
+                      <li><a href="XYZ"> Stars and Bars</a></li>
+                      <li><a href="XYZ"> Generating all <i>K</i>-combinations</a> </li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#Home">  Tasks </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Placing Bishops on a chessboard</a></li>
+                      <li><a href="XYZ"> Balanced bracket Sequences</a></li>
+                      <li><a href="XYZ"> Counting labeled graphs</a></li>
+                    </ul>
+                  </div>
+                </li>
               </div>
           </div>
 
           <h4> Numerical Methods </h4>
           <div>
               <div className="Numerical-bar ">
-                <li><a href="#Fundamen"> Search </a></li>
-                <li><a href="#Home"> Integration </a></li>
+                <li><a href="#Fundamen"> Search </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Ternary Search</a></li>
+                      <li><a href="XYZ"> Newton's method for finding roots</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#Home"> Integration </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Integration by Simpon's formula</a></li>
+                    </ul>
+                  </div>
+                </li>
               </div>
+          </div>
+          
+          <h4> Geometry</h4>
+          <div>
+            <div className="geometry-bar">
+              <li><a href="Element"> Elementary Operation</a>
+                <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Basic Geometry</a></li>
+                      <li><a href="XYZ"> Finding the equation of a line for a Segment</a></li>
+                      <li><a href="XYZ"> Intersection point of lines</a></li>
+                      <li><a href="XYZ"> Check if two segments Intersect</a></li>
+                      <li><a href="XYZ"> Circle-Line Intersection</a></li>
+                      <li><a href="XYZ"> Circle-Circle Intersection</a></li>
+                      <li><a href="XYZ"> Common tangents of two circles</a></li>
+                      <li><a href="XYZ"> Length of the union of segments</a></li>
+                    </ul>
+                  </div>
+              </li>
+              <li><a href="polygons"> Polygons</a></li>
+              <li><a href="Convex hull"> Convex hull</a></li>
+              <li><a href="sweep-line"> Sweep Line</a></li>
+              <li><a href="miscellaneous"> Miscellaneous</a></li>
+            </div>
           </div>
 
           <h4> Graph </h4>
           <div>
               <div className="graph-bar">
-                <li><a href="#Fundamen"> Graph Traversal </a></li>
-                <li><a href="#Home"> Conected components, Bridges, Articulations point </a></li>
-                <li><a href="#Home"> Single-source shortest paths </a></li>
-                <li><a href="#Home">  All-pairs shortest paths </a></li>
-                <li><a href="#number systems"> Spanning Trees</a></li>
-                <li><a href="#Miscellaneous">  Cycles </a></li>
-                <li><a href="#lowest"> Lowest coon ancestor  </a></li>
-                <li> <a href="#flows"> Flows and related problems </a></li>
-                <li> <a href="matching"> Matchings and related problems </a></li>
-                <li><a href="#miscell"> Miscellaneous </a></li>
+                <li><a href="#Fundamen"> Graph Traversal </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Breadth First Search (BFS)</a></li>
+                      <li><a href="XYZ"> Depth First Search (DFS)</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#Home"> Conected components, Bridges, Articulations point </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ">Finding connected components </a></li>
+                      <li><a href="XYZ">Finding Bridges in O(N+M)</a></li>
+                      <li><a href="XYZ">FInding Bridges online</a></li>
+                      <li><a href="XYZ">Finding Articulation Points in O(N+M)</a></li>
+                      <li><a href="XYZ">Strongly connected components and condensation Graph</a></li>
+                      <li><a href="XYZ"> Strong Orientation</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#Home"> Single-source shortest paths </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Dijkstra- Finding shortest paths form given vertex</a></li>
+                      <li><a href="XYZ"> Dijkstra on Sparse graohs</a></li>
+                      <li><a href="XYZ"> Bellaman-Ford Algorithm</a></li>
+                      <li><a href="XYZ"> 0-1 BFS</a></li>
+                      <li><a href="XYZ"> D'Esopo-Pape algorithm</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#Home">  All-pairs shortest paths </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Floyd-Warshall -Finding all shortest path</a></li>
+                      <li><a href="XYZ"> Number of paths of fixed length /shortestpaths of fixed length</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#number systems"> Spanning Trees</a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Prim's Algorithm </a></li>
+                      <li><a href="XYZ"> Kruskal</a></li>
+                      <li><a href="XYZ"> Kruskal and Lowest common Ancestor</a></li>
+                      <li><a href="XYZ"> Krichoff Theorem</a></li>
+                      <li><a href="XYZ"> Prfuer Code</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#Miscellaneous">  Cycles </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Checking a graph for acyclicity and finding a cycle in O(M)</a></li>
+                      <li><a href="XYZ"> Finding a negative Cycle in the graph</a></li>
+                      <li><a href="XYZ"> Eulerian Path</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#lowest"> Lowest coon ancestor(LCA)  </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> LCA</a></li>
+                      <li><a href="XYZ"> Binary Lifting</a></li>
+                      <li><a href="XYZ"> Farach-Colton and Bender algorithm</a></li>
+                      <li><a href="XYZ"> Solve RMQ by finding LCA</a></li>
+                      <li><a href="XYZ"> Tarjan's off-line algorithm</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li> <a href="#flows"> Flows and related problems </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Maxium Flow-Ford-Fulkerson and Edmonds-Karp</a></li>
+                      <li><a href="XYZ"> Push-relabel algorithm</a></li>
+                      <li><a href="XYZ"> Push-relabel algorithm improved</a></li>
+                      <li><a href="XYZ"> Dinic's algorithm</a></li>
+                      <li><a href="XYZ"> MPM Algorithm</a></li>
+                      <li><a href="XYZ"> Minium -Cost Flow</a></li>
+                      <li><a href="XYZ"> Assignment problem. Solution using min-cost flowin O(N^5)</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li> <a href="matching"> Matchings and related problems </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ"> Biparite Graph Check</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#miscell"> Miscellaneous </a>
+                  <div className="submenu-01">
+                    <ul>
+                      <li><a href="XYZ">Topological Sorting</a></li>
+                      <li><a href="XYZ"> Edge connectivity/Vertes connectivity</a></li>
+                      <li><a href="XYZ"> Tree Pianting </a></li>
+                      <li><a href="XYZ"> 2-SAT</a></li>
+                      <li><a href="XYZ"> Heavy-light Decomposition</a></li>
+                    </ul>
+                  </div>
+                </li>
               </div>
           </div>
 

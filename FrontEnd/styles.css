@@ -65,7 +65,8 @@ h1{
   margin: 2px;
 }
 .sidebar li:hover .submenu-01 ul li{
-  width: 100px;
+  width: auto;
+  height: auto;
   padding: 5px;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px solid black;
 }
