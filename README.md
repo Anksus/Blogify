@@ -16,13 +16,24 @@ $ sudo apt-get install nodejs
 $ npm-install
 ```
 
-### For better code quality we are suing ESLint and for formatting Prettier.
+3. Make sure mongodb is also installed, to run server.
 
-## To run project, type the following command in the terminal.
-```
-npm run dev
-```
+> # To run project, type the following command in the terminal.
+>
+> For running frontend
+>
+> ```
+> npm run dev
+> ```
+>
+> To run server
+>
+> ```
+> npm run server
+> ```
+>
+> Note: make sure mongodb is running
 
+# For front-end contributers
 
-# For front-end contributers 
 Just write your custom css in styles.js

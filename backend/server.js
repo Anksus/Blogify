@@ -11,7 +11,7 @@ app.use(express.json());
 const uri = process.env.ATLAS_URI;
 const LOCAL = "mongodb://localhost/local-testing-blogify";
 
-mongoose.connect(uri, {
+mongoose.connect(LOCAL, {
   useNewUrlParser: true,
   useCreateIndex: true,
   useUnifiedTopology: true,
