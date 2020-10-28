@@ -7,6 +7,13 @@ require("dotenv").config();
 
 app.use(cors());
 app.use(express.json());
+app.use((req, res, next) => {
+  if (req.method === "GET") {
+    next();
+  } else {
+    res.status(503).send("Sorry");
+  }
+});
 
 const uri = process.env.ATLAS_URI;
 const LOCAL = "mongodb://localhost/local-testing-blogify";
