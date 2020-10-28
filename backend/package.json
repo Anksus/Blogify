@@ -14,9 +14,12 @@
     "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",
     "cors": "^2.8.5",
+    "dompurify": "^2.1.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
+    "jsdom": "^16.4.0",
+    "marked": "^1.2.0",
     "mongoose": "^5.10.7",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0"

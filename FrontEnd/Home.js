@@ -1,64 +1,10 @@
 import React from "react";
-import { Link } from "@reach/router";
-import Sidebar from './Sidebar';
+const Sidebar = require("./Sidebar").default;
 class Home extends React.Component {
   render() {
     return (
       <div>
-        {/* sidebar */}
-        <div className="sidebar">
-          <a href="#Home">Overview</a>
-          <a href="#services">Objects</a>
-          <a href="#clients">properties</a>
-          <a href="#contact">Hooks</a>
-          <a href="#ndqwnd">Events</a>
-          <a href="#Home">Dishes</a>
-          <div>
-            <ul>
-              <a href="#Home">Chicken</a>
-              <a href="#Home">Paneer</a>
-              <a href="#Home">Dosa</a>
-              <a href="#Home">Kabab</a>
-            </ul>
-          </div>
-          <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
-          <a href="#services">Objects</a>
-          <a href="#clients">properties</a>
-          <a href="#contact">Hooks</a>
-          <a href="#ndqwnd">Events</a>
-          <a href="#Home">Dishes</a>
-          <div>
-            <ul>
-              <a href="#Home">Chicken</a>
-              <a href="#Home">Paneer</a>
-              <a href="#Home">Dosa</a>
-              <a href="#Home">Kabab</a>
-            </ul>
-          </div>
-          <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
-          <a href="#Home">Overview</a>
-          <a href="#services">Objects</a>
-          <a href="#clients">properties</a>
-          <a href="#contact">Hooks</a>
-          <a href="#ndqwnd">Events</a>
-          <a href="#Home">Dishes</a>
-          <div>
-            <ul>
-              <a href="#Home">Chicken</a>
-              <a href="#Home">Paneer</a>
-              <a href="#Home">Dosa</a>
-              <a href="#Home">Kabab</a>
-            </ul>
-          </div>
-          <a href="#Home">Overview</a>
-        </div>
-
-        {/* main */}
+        <Sidebar />
         <div className="right-side-main">
           <h2>Sidebar with Icons</h2>
           <p>This side navigation is of full height (100%) and always shown.</p>
