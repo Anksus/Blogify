@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel FrontEnd/index.html",
+    "dev": "parcel FrontEnd/index.html ",
     "lint": "eslint \"FrontEnd/**/*.{js,jsx}\" --quiet",
     "format": "prettier \"FrontEnd/**/*.{js,html}\" --write",
     "test": "echo \"Error: no test specified\" && exit 1"
