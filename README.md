@@ -1,3 +1,12 @@
+<div align="center">
+
+[![Contributors](https://img.shields.io/github/contributors/Anksus/Blogify?style=flat-square)](https://github.com/Anksus/Blogify/graphs/contributors)
+[![Pull Requests](https://img.shields.io/github/issues-pr-closed/Anksus/Blogify?style=flat-square)](https://github.com/Anksus/Blogify/pulls)
+
+</div>
+
+<br />
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
