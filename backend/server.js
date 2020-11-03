@@ -31,5 +31,6 @@ connection.once("open", () => {
 
 app.use("/cp", articleRoutes);
 
+// default 
 const port = process.env.PORT || 8000;
 app.listen(port, console.log(`server running on port ${port}`));
