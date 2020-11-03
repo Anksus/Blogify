@@ -86,6 +86,5 @@ h4{
 }
 .sidebar li:hover .submenu-01 ul li a:hover
 {
-  color: brown;
+  color: red;
 }
-
