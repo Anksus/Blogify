@@ -29,17 +29,8 @@ $ npm-install
 
 > # To run project, type the following command in the terminal.
 >
-> For running frontend
->
-> ```
-> npm run dev
-> ```
->
-> To run server
->
-> ```
-> npm run server
-> ```
+> Just type `npm run start`
+> It will start both frontend and backend for you!
 >
 > Note: make sure mongodb is running
 

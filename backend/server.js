@@ -3,6 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");
 const articleRoutes = require("./routes/articles");
+// require("dotenv").config();
 require("dotenv").config();
 
 app.use(cors());
@@ -18,7 +19,7 @@ app.use((req, res, next) => {
 const uri = process.env.ATLAS_URI;
 const LOCAL = "mongodb://localhost/local-testing-blogify";
 
-mongoose.connect(LOCAL, {
+mongoose.connect(uri, {
   useNewUrlParser: true,
   useCreateIndex: true,
   useUnifiedTopology: true,
@@ -31,6 +32,6 @@ connection.once("open", () => {
 
 app.use("/cp", articleRoutes);
 
-// default 
+// default
 const port = process.env.PORT || 8000;
 app.listen(port, console.log(`server running on port ${port}`));

@@ -3,12 +3,12 @@ body {
   padding: 0px;
   margin: 0px;
 }
-h1{
+h1 {
   font-variant: small-caps;
   color: blueviolet;
 }
-h4{
-  color:red ;
+h4 {
+  color: red;
   background-color: steelblue;
 }
 /*style on left-side-main*/
@@ -24,6 +24,8 @@ h4{
   height: 100%;
   width: 20%;
   position: fixed;
+  display: flex;
+  flex-direction: column;
   z-index: 1;
   top: 0;
   left: 0;
@@ -42,22 +44,22 @@ h4{
   text-decoration: none;
   color: black;
 }
-.sidebar li a:hover{
+.sidebar li a:hover {
   text-decoration: none;
   color: blue;
 }
 
-.sidebar, .Algebra-bar li{
+.sidebar,
+.Algebra-bar li {
   margin-top: 5px;
 }
 
-.submenu-01{
+.submenu-01 {
   display: none;
 }
 
 /*CSS for submenu*/
-.sidebar li:hover .submenu-01
-{
+.sidebar li:hover .submenu-01 {
   display: block;
   position: relative;
   color: rgb(0, 80, 100);
@@ -65,12 +67,12 @@ h4{
   margin-left: 10px;
 }
 
-.sidebar li:hover .submenu-01 ul{
+.sidebar li:hover .submenu-01 ul {
   display: block;
   block-size: auto;
   margin: 2px;
 }
-.sidebar li:hover .submenu-01 ul li{
+.sidebar li:hover .submenu-01 ul li {
   width: auto;
   height: auto;
   padding: 5px;
@@ -80,11 +82,9 @@ h4{
   border-radius: 0px;
 }
 
-.sidebar li:hover .submenu-01 ul li:last-child
-{
+.sidebar li:hover .submenu-01 ul li:last-child {
   border-bottom: none;
 }
-.sidebar li:hover .submenu-01 ul li a:hover
-{
+.sidebar li:hover .submenu-01 ul li a:hover {
   color: red;
 }
