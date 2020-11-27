@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "run-p server dev",
     "server": "nodemon backend/server.js",
     "dev": "parcel FrontEnd/index.html ",
     "lint": "eslint \"FrontEnd/**/*.{js,jsx}\" --quiet",
